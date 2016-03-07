@@ -11,9 +11,9 @@ Like `Promise.all` but for object properties instead of iterated values. Returns
 
 ## Usage example
 ```js
-const Promise.allProps = require('promise-all-props');
+const promiseAllProps = require('promise-all-props');
 
-Promise.allProps({
+promiseAllProps({
     foo: Promise.resolve('foo'),
     bar: Promise.resolve('bar')
 }).then(function(result) {
