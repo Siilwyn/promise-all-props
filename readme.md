@@ -22,6 +22,6 @@ promiseAllProps({
 ```
 
 [travis]: https://travis-ci.org/Siilwyn/promise-all-props
-[travis-icon]: https://img.shields.io/travis/Siilwyn/promise-all-props.svg?style=flat-square
+[travis-icon]: https://img.shields.io/travis/Siilwyn/promise-all-props/master.svg?style=flat-square
 [david-dev]: https://david-dm.org/Siilwyn/promise-all-props#info=devDependencies
 [david-dev-icon]: https://img.shields.io/david/dev/Siilwyn/promise-all-props.svg?style=flat-square
