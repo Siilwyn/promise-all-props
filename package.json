@@ -32,7 +32,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^2.0.0",
+    "eslint": "^3.1.1",
     "tape": "^4.4.0",
     "watch": "^0.18.0"
   }
