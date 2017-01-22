@@ -1,4 +1,6 @@
 # promise-all-props
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Siilwyn/promise-all-props.svg)](https://greenkeeper.io/)
 [![Travis Build Status][travis-icon]][travis]
 [![David devDependencies Status][david-dev-icon]][david-dev]
 
