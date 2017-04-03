@@ -4,8 +4,8 @@ module.exports = function (object) {
   var keys = Object.keys(object);
   var values = [];
 
-  for (let key in object) {
-    let value = object[key];
+  for (var key in object) {
+    var value = object[key];
     values.push(value);
   }
 
