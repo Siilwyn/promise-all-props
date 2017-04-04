@@ -28,7 +28,8 @@
     "preversion": "npm test",
     "postversion": "git push && npm publish",
     "lint": "eslint *.js",
-    "watch": "watch 'npm run test && npm run lint --silent' ."
+    "watch": "watch 'npm run test && npm run lint --silent' .",
+    "ci": "npm test && npm run lint -- --max-warnings 0"
   },
   "dependencies": {},
   "devDependencies": {
