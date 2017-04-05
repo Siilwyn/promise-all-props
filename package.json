@@ -1,6 +1,6 @@
 {
   "name": "promise-all-props",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Like `Promise.all` but for object properties.",
   "keywords": [
     "promise",
