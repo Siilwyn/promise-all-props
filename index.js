@@ -3,10 +3,10 @@
 module.exports = function (object) {
   var keys = Object.keys(object);
   var values = [];
+  var key;
 
-  for (let key in object) {
-    let value = object[key];
-    values.push(value);
+  for (key in object) {
+    values.push(object[key]);
   }
 
   return Promise.all(values).then(function (results) {
