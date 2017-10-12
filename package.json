@@ -2,26 +2,10 @@
   "name": "promise-all-props",
   "version": "1.0.1",
   "description": "Like `Promise.all` but for object properties.",
-  "keywords": [
-    "promise",
-    "all",
-    "props",
-    "properties",
-    "object",
-    "bluebird"
-  ],
-  "homepage": "https://github.com/Siilwyn/promise-all-props",
-  "bugs": "https://github.com/Siilwyn/promise-all-props/issues",
-  "license": "MIT",
-  "author": "Selwyn <talk@selwyn.cc> (https://selwyn.cc/)",
-  "files": [
-    "index.js"
-  ],
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Siilwyn/promise-all-props.git"
-  },
+  "files": [
+    "$npm_package_main"
+  ],
   "scripts": {
     "start": "npm run watch",
     "test": "node test.js",
@@ -36,5 +20,19 @@
     "eslint": "^4.1.0",
     "tape": "^4.4.0",
     "watch": "^1.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Siilwyn/promise-all-props.git"
+  },
+  "author": "Selwyn <talk@selwyn.cc> (https://selwyn.cc/)",
+  "license": "MIT",
+  "keywords": [
+    "promise",
+    "all",
+    "props",
+    "properties",
+    "object",
+    "bluebird"
+  ]
 }
