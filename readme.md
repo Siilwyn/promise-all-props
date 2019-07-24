@@ -1,6 +1,5 @@
 # promise-all-props
 [![Travis Build Status][travis-icon]][travis]
-[![David devDependencies Status][david-dev-icon]][david-dev]
 
 Inspired by [bluebird's `Promise.props`](http://bluebirdjs.com/docs/api/promise.props.html).
 
@@ -23,5 +22,3 @@ promiseAllProps({
 
 [travis]: https://travis-ci.org/Siilwyn/promise-all-props
 [travis-icon]: https://img.shields.io/travis/Siilwyn/promise-all-props/master.svg?style=flat-square
-[david-dev]: https://david-dm.org/Siilwyn/promise-all-props#info=devDependencies
-[david-dev-icon]: https://img.shields.io/david/dev/Siilwyn/promise-all-props.svg?style=flat-square
