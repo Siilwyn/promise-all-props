@@ -7,13 +7,12 @@
     "$npm_package_main"
   ],
   "scripts": {
-    "start": "npm run watch",
     "test": "node test.js",
-    "preversion": "npm test",
-    "postversion": "git push && npm publish",
+    "test:ci": "npm test && npm run lint -- --max-warnings 0",
     "lint": "eslint *.js",
     "watch": "watch 'npm run test && npm run lint --silent' .",
-    "ci": "npm test && npm run lint -- --max-warnings 0"
+    "preversion": "npm test",
+    "postversion": "git push  --follow-tags && npm publish"
   },
   "dependencies": {},
   "devDependencies": {

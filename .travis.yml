@@ -1,13 +1,12 @@
 language: node_js
 
 node_js:
+  - 12
   - 10
-  - 8
-  - 6
 
 script:
-  - npm run ci
+  - npm run test:ci
 
-notifications:
-  email: false
-
+branches:
+  only:
+    - master
