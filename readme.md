@@ -1,5 +1,7 @@
 # promise-all-props
 [![Travis Build Status][travis-icon]][travis]
+[![LGTM Grade][lgtm-icon]][lgtm]
+[![npm][npm-icon]][npm]
 
 Inspired by [bluebird's `Promise.props`](http://bluebirdjs.com/docs/api/promise.props.html).
 
@@ -22,3 +24,7 @@ promiseAllProps({
 
 [travis]: https://travis-ci.org/Siilwyn/promise-all-props
 [travis-icon]: https://img.shields.io/travis/Siilwyn/promise-all-props/master.svg?style=flat-square
+[lgtm]: https://lgtm.com/projects/g/Siilwyn/promise-all-props/
+[lgtm-icon]: https://img.shields.io/lgtm/grade/javascript/g/Siilwyn/promise-all-props.svg?style=flat-square
+[npm]: https://www.npmjs.com/package/promise-all-props
+[npm-icon]: https://img.shields.io/npm/v/promise-all-props.svg?style=flat-square
