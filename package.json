@@ -25,7 +25,7 @@
     "url": "https://github.com/Siilwyn/promise-all-props.git"
   },
   "author": "Selwyn <talk@selwyn.cc> (https://selwyn.cc/)",
-  "license": "MIT",
+  "license": "ISC",
   "keywords": [
     "promise",
     "all",
