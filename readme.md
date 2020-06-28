@@ -22,8 +22,8 @@ promiseAllProps({
 });
 ```
 
-[travis]: https://travis-ci.org/Siilwyn/promise-all-props
-[travis-icon]: https://img.shields.io/travis/Siilwyn/promise-all-props/master.svg?style=flat-square
+[travis]: https://travis-ci.com/Siilwyn/promise-all-props
+[travis-icon]: https://img.shields.io/travis/com/Siilwyn/promise-all-props/master.svg?style=flat-square
 [lgtm]: https://lgtm.com/projects/g/Siilwyn/promise-all-props/
 [lgtm-icon]: https://img.shields.io/lgtm/grade/javascript/g/Siilwyn/promise-all-props.svg?style=flat-square
 [npm]: https://www.npmjs.com/package/promise-all-props
