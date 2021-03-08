@@ -1,6 +1,6 @@
 {
   "name": "promise-all-props",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Like `Promise.all` but for object properties.",
   "type": "module",
   "main": "./main.mjs",
@@ -16,7 +16,6 @@
     "preversion": "npm test",
     "postversion": "git push --follow-tags"
   },
-  "dependencies": {},
   "devDependencies": {
     "eslint": "^7.0.0",
     "tape": "^5.0.0",
