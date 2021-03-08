@@ -1,12 +1,10 @@
-'use strict';
-
-const test = require('tape');
-const plugin = require('./index.js');
+import test from 'tape'
+import promiseAllProps from './main.mjs';
 
 test('wait for fulfilled object properties', function (t) {
   t.plan(1);
 
-  plugin({
+  promiseAllProps({
     foo: Promise.resolve('foo'),
     bar: Promise.resolve('bar')
   }).then(function (result) {
@@ -17,7 +15,7 @@ test('wait for fulfilled object properties', function (t) {
 test('reject promise on rejected object properties', function (t) {
   t.plan(1);
 
-  plugin({
+  promiseAllProps({
     foo: Promise.resolve('foo'),
     bar: Promise.reject('bar')
   }).catch(function (error) {
