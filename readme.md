@@ -12,19 +12,19 @@ Like `Promise.all` but for object properties instead of iterated values. Returns
 
 ## Usage example
 ```js
-const promiseAllProps = require('promise-all-props');
+import promiseAllProps from 'promise-all-props';
 
 promiseAllProps({
-    foo: Promise.resolve('foo'),
-    bar: Promise.resolve('bar')
-}).then(function(result) {
-    console.log(result.foo, result.bar);
+  foo: Promise.resolve('foo'),
+  bar: Promise.resolve('bar')
+}).then((result) => {
+  console.log(result.foo, result.bar);
 });
 ```
 
 [travis]: https://travis-ci.com/Siilwyn/promise-all-props
 [travis-badge]: https://api.travis-ci.com/Siilwyn/promise-all-props.svg
 [lgtm]: https://lgtm.com/projects/g/Siilwyn/promise-all-props/
-[lgtm-badge]: https://tiny-shields.voorhoede.workers.dev/service/lgtm/grade/javascript/g/Siilwyn/promise-all-props
-[npm]: https://www.npmjs.com/package/promise-all-props
-[npm-badge]: https://tiny-shields.voorhoede.workers.dev/service/npm/promise-all-props
+[lgtm-badge]: https://tinyshields.dev/lgtm/grade/javascript/g/Siilwyn/promise-all-props.svg
+[npm]: https://npmjs.com/package/promise-all-props
+[npm-badge]: https://tinyshields.dev/npm/promise-all-props.svg

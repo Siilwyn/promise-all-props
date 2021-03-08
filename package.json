@@ -2,23 +2,39 @@
   "name": "promise-all-props",
   "version": "1.0.1",
   "description": "Like `Promise.all` but for object properties.",
-  "main": "index.js",
+  "type": "module",
+  "main": "./main.mjs",
+  "exports": "./main.mjs",
   "files": [
-    "$npm_package_main"
+    "main.mjs"
   ],
   "scripts": {
-    "test": "node test.js",
+    "test": "node test.mjs",
     "test:ci": "npm test && npm run lint -- --max-warnings 0",
-    "lint": "eslint *.js",
+    "lint": "eslint *.mjs",
     "watch": "watch 'npm run test && npm run lint --silent' .",
     "preversion": "npm test",
-    "postversion": "git push  --follow-tags && npm publish"
+    "postversion": "git push --follow-tags"
   },
   "dependencies": {},
   "devDependencies": {
     "eslint": "^7.0.0",
     "tape": "^5.0.0",
     "watch": "^1.0.1"
+  },
+  "engines": {
+    "node": "^14.0.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "es2021": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    },
+    "extends": "eslint:recommended"
   },
   "repository": {
     "type": "git",
