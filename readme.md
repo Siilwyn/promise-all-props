@@ -8,7 +8,11 @@ Inspired by [bluebird's `Promise.props`](http://bluebirdjs.com/docs/api/promise.
 Like `Promise.all` but for object properties instead of iterated values. Returns a promise that is fulfilled when all the properties of the object are fulfilled. The promise's fulfillment value is an object with fulfilled values at respective keys to the original object. If any promise in the object rejects, the returned promise is rejected.
 
 ## Install
+Node.js:  
 `npm install promise-all-props --save`
+
+Deno:  
+`https://deno.land/x/promise_all_props`
 
 ## Usage example
 ```js
