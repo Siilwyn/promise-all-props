@@ -9,7 +9,7 @@ Like `Promise.all` but for object properties instead of iterated values. Returns
 
 ## Install
 Node.js:  
-`npm install promise-all-props --save`
+`npm install promise-all-props`
 
 Deno:  
 `https://deno.land/x/promise_all_props`
