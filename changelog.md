@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and follows [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.1.1] - 2021-07-13
+### Fixed
+- The too strict Node.js engine semver range, support from 14 and up.
+
 ## [2.1.0] - 2021-03-09
 ### Added
 - Deno export to https://deno.land.
