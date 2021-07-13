@@ -12,14 +12,12 @@
     "test": "node test.mjs",
     "test:ci": "npm test && npm run lint -- --max-warnings 0",
     "lint": "eslint *.mjs",
-    "watch": "watch 'npm run test && npm run lint --silent' .",
     "preversion": "npm test",
     "postversion": "git push --follow-tags"
   },
   "devDependencies": {
     "eslint": "^7.30.0",
-    "tape": "^5.0.0",
-    "watch": "^1.0.1"
+    "tape": "^5.0.0"
   },
   "engines": {
     "node": "^14.0.0"
