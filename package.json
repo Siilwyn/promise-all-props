@@ -3,10 +3,13 @@
   "version": "2.1.1",
   "description": "Like `Promise.all` but for object properties.",
   "type": "module",
-  "main": "./main.mjs",
-  "exports": "./main.mjs",
+  "exports": {
+    "types": "./main.d.ts",
+    "import": "./main.mjs"
+  },
   "files": [
-    "main.mjs"
+    "main.mjs",
+    "main.d.ts"
   ],
   "scripts": {
     "test": "node test.mjs",
@@ -20,7 +23,7 @@
     "tape": "^5.4.0"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=16.0.0"
   },
   "eslintConfig": {
     "env": {
