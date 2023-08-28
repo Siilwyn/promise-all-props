@@ -1,7 +1,6 @@
 # promise-all-props
-[![Travis Build Status][travis-badge]][travis]
-[![LGTM Grade][lgtm-badge]][lgtm]
 [![npm][npm-badge]][npm]
+[![bundlephobia][bundlephobia-badge]][bundlephobia]
 
 Inspired by [bluebird's `Promise.props`](http://bluebirdjs.com/docs/api/promise.props.html).
 
@@ -26,9 +25,7 @@ promiseAllProps({
 });
 ```
 
-[travis]: https://travis-ci.com/Siilwyn/promise-all-props
-[travis-badge]: https://api.travis-ci.com/Siilwyn/promise-all-props.svg
-[lgtm]: https://lgtm.com/projects/g/Siilwyn/promise-all-props/
-[lgtm-badge]: https://tinyshields.dev/lgtm/grade/javascript/g/Siilwyn/promise-all-props.svg
 [npm]: https://npmjs.com/package/promise-all-props
 [npm-badge]: https://tinyshields.dev/npm/promise-all-props.svg
+[bundlephobia]: https://bundlephobia.com/package/promise-all-props
+![bundlephobia](https://tinyshields.dev/bundlephobia/size/promise-all-props.svg)
