@@ -16,7 +16,7 @@ Deno:
 
 ## Usage example
 ```js
-import promiseAllProps from 'promise-all-props';
+import { promiseAllProps } from 'promise-all-props';
 
 promiseAllProps({
   foo: Promise.resolve('foo'),

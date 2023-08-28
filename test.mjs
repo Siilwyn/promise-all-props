@@ -1,5 +1,5 @@
 import test from 'tape'
-import promiseAllProps from './main.mjs';
+import { promiseAllProps } from './main.mjs';
 
 test('wait for fulfilled object properties', function (t) {
   t.plan(1);
