@@ -28,4 +28,4 @@ promiseAllProps({
 [npm]: https://npmjs.com/package/promise-all-props
 [npm-badge]: https://tinyshields.dev/npm/promise-all-props.svg
 [bundlephobia]: https://bundlephobia.com/package/promise-all-props
-![bundlephobia](https://tinyshields.dev/bundlephobia/size/promise-all-props.svg)
+[bundlephobia-badge]: https://tinyshields.dev/bundlephobia/size/promise-all-props.svg
