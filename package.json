@@ -19,7 +19,7 @@
     "postversion": "git push --follow-tags"
   },
   "devDependencies": {
-    "eslint": "^8.6.0",
+    "eslint": "^9.39.2",
     "tape": "^5.4.0"
   },
   "engines": {
